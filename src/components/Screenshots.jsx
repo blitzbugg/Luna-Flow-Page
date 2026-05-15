@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll} from 'framer-motion';
+import { useRef } from 'react';
 import homeImg from '../assets/home.jpeg';
 import calenderImg from '../assets/calender.jpeg';
 import insightsImg from '../assets/insights.jpeg';
@@ -59,10 +59,10 @@ const Screenshots = () => {
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="flex-shrink-0 w-[280px] md:w-[320px] snap-center"
+            className="shrink-0 w-70 md:w-[320px] snap-center"
           >
             <div className="relative group">
-              <div className="aspect-[9/19] rounded-[2.5rem] border-[6px] border-[#2a2a2a] overflow-hidden shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]">
+              <div className="aspect-9/19 rounded-[2.5rem] border-[6px] border-[#2a2a2a] overflow-hidden shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]">
                 <img 
                   src={screen.img} 
                   alt={screen.title} 
@@ -77,7 +77,7 @@ const Screenshots = () => {
           </motion.div>
         ))}
         {/* Spacer for ending padding */}
-        <div className="flex-shrink-0 w-[5%] md:w-[10%]" />
+        <div className="shrink-0 w-[5%] md:w-[10%]" />
       </div>
 
       <style jsx>{`
