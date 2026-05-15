@@ -1,1 +1,78 @@
 @import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #0F1117;
+  --color-brand-surface: #171923;
+  --color-brand-primary: #E87A90;
+  --color-brand-secondary: #C8A2FF;
+  --color-brand-accent: #FFD6E0;
+  --color-brand-text: #F5F7FA;
+  --color-brand-muted: #94A3B8;
+
+  --font-sans: "Outfit", "Inter", system-ui, sans-serif;
+  
+  --radius-4xl: 2rem;
+  --radius-5xl: 3rem;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text font-sans antialiased selection:bg-brand-primary/30;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-brand-surface/40 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+  
+  .glass-nav {
+    @apply bg-brand-bg/60 backdrop-blur-md border-b border-white/5;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-linear-to-r from-brand-primary via-brand-secondary to-brand-accent;
+  }
+
+  .btn-primary {
+    @apply relative px-8 py-4 bg-brand-primary text-white font-semibold rounded-2xl 
+           transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_-5px_rgba(232,122,144,0.5)]
+           active:scale-95 overflow-hidden flex items-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-4 bg-white/5 border border-white/10 text-white font-semibold rounded-2xl 
+           transition-all duration-300 hover:bg-white/10 hover:border-white/20 hover:scale-105
+           active:scale-95 flex items-center gap-2;
+  }
+
+  .gradient-blob {
+    @apply absolute blur-[120px] opacity-20 pointer-events-none;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-surface border-4 border-brand-bg rounded-full hover:bg-brand-muted/30;
+}
