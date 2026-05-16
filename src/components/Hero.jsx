@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Blobs */}
-      <div className="gradient-blob top-[-10%] left-[-10%] w-[500px] h-[500px] bg-brand-primary" />
-      <div className="gradient-blob bottom-[10%] right-[-10%] w-[600px] h-[600px] bg-brand-secondary" />
+      <div className="gradient-blob top-[-10%] left-[-10%] w-125 h-125 bg-brand-primary" />
+      <div className="gradient-blob bottom-[10%] right-[-10%] w-150 h-150 bg-brand-secondary" />
       
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
         <motion.div
@@ -65,7 +65,7 @@ const Hero = () => {
           className="relative"
         >
           {/* Main Phone Mockup */}
-          <div className="relative mx-auto w-[280px] md:w-[320px] aspect-[9/19] bg-[#1a1a1a] rounded-[3rem] border-[8px] border-[#2a2a2a] shadow-2xl overflow-hidden z-20">
+          <div className="relative mx-auto w-70 md:w-[320px] aspect-9/19 bg-[#1a1a1a] rounded-5xl border-8 border-[#2a2a2a] shadow-2xl overflow-hidden z-20">
             <img 
               src={homeImg} 
               alt="LunaFlow App Home" 
