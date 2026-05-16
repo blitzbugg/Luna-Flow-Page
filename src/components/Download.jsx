@@ -29,7 +29,7 @@ const DownloadSection = () => {
               className="flex flex-wrap justify-center gap-6"
             >
               <a 
-                href="https://github.com/blitzbugg/luna-flow/releases/download/v1.0.0/LunaFlow-v1.0.0.apk" 
+                href="https://github.com/blitzbugg/luna-flow/releases/download/v1.0.1/LunaFlow-v1.0.1.apk" 
                 className="btn-primary py-5 px-10 text-xl group"
               >
                 <Download size={24} className="group-hover:translate-y-1 transition-transform" />
@@ -56,7 +56,7 @@ const DownloadSection = () => {
               <span>Compatible with Android 8.0+</span>
               <span className="w-1.5 h-1.5 rounded-full bg-brand-muted/30" />
               <Info size={18} />
-              <span>v1.0.0 (90MB)</span>
+              <span>v1.0.1 (90MB)</span>
             </motion.div>
           </div>
         </div>

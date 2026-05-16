@@ -132,7 +132,7 @@ At LunaFlow, your privacy is sacred. We believe your health data is deeply perso
 
 Get LunaFlow on your device:
 
-- 📱 **Android** - [Download APK v1.0.0](https://github.com/blitzbugg/luna-flow/releases/download/v1.0.0/LunaFlow-v1.0.0.apk)
+- 📱 **Android** - [Download APK v1.0.1](https://github.com/blitzbugg/luna-flow/releases/download/v1.0.1/LunaFlow-v1.0.1.apk)
 - 🔗 **GitHub** - [View Source Code](https://github.com/blitzbugg/luna-flow)
 
 ---
@@ -165,7 +165,7 @@ Have questions or suggestions? We'd love to hear from you!
 
 ### Made with 💜 for your wellness
 
-**LunaFlow v1.0.0** - Track with clarity, live with comfort.
+**LunaFlow v1.0.1** - Track with clarity, live with comfort.
 
 [⬆ Back to top](#-lunaflow---track-your-cycle-with-clarity--comfort)
 

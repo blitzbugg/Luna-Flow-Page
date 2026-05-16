@@ -23,7 +23,7 @@ const Hero = () => {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-primary/10 border border-brand-primary/20 text-brand-primary text-sm font-medium mb-6"
           >
             <Sparkles size={14} />
-            <span>Version 1.0.0 Now Available</span>
+            <span>Version 1.0.1 Now Available</span>
           </motion.div>
           
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
@@ -36,7 +36,7 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-wrap gap-4">
-            <a href="https://github.com/blitzbugg/luna-flow/releases/download/v1.0.0/LunaFlow-v1.0.0.apk" className="btn-primary">
+            <a href="https://github.com/blitzbugg/luna-flow/releases/download/v1.0.1/LunaFlow-v1.0.1.apk" className="btn-primary">
               <Download size={20} />
               Download APK
             </a>

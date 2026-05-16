@@ -70,7 +70,7 @@ const Navbar = () => {
               <GitHub size={20} />
             </a>
             <a 
-              href="https://github.com/blitzbugg/luna-flow/releases/download/v1.0.0/LunaFlow-v1.0.0.apk"
+              href="https://github.com/blitzbugg/luna-flow/releases/download/v1.0.1/LunaFlow-v1.0.1.apk"
               className="btn-primary py-2 px-5 text-sm"
             >
               <Download size={16} />
@@ -118,7 +118,7 @@ const Navbar = () => {
                   <GitHub size={20} /> GitHub
                 </a>
                 <a 
-                  href="https://github.com/blitzbugg/luna-flow/releases/download/v1.0.0/LunaFlow-v1.0.0.apk"
+                  href="https://github.com/blitzbugg/luna-flow/releases/download/v1.0.1/LunaFlow-v1.0.1.apk"
                   className="btn-primary py-2 px-4 text-sm"
                 >
                   <Download size={16} /> Download
