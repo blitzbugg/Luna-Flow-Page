@@ -1,10 +1,10 @@
 import { motion, useScroll} from 'framer-motion';
 import { useRef } from 'react';
-import homeImg from '../assets/home.jpeg';
-import calenderImg from '../assets/calender.jpeg';
-import insightsImg from '../assets/insights.jpeg';
-import logImg from '../assets/log.jpeg';
-import settingsImg from '../assets/settings.jpeg';
+import homeImg from '../assets/home.png';
+import calenderImg from '../assets/calender.png';
+import insightsImg from '../assets/insights.png';
+import logImg from '../assets/log.png';
+import settingsImg from '../assets/settings.png';
 
 const screenshots = [
   { img: homeImg, title: 'Overview', desc: 'Summary of your current cycle' },

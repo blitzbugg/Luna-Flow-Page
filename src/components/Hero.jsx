@@ -1,8 +1,7 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, Heart, Shield, Sparkles } from 'lucide-react';
 import { GitHub } from './Icons';
-import homeImg from '../assets/home.jpeg';
+import homeImg from '../assets/home.png';
 
 const Hero = () => {
   return (

@@ -37,27 +37,27 @@ LunaFlow is a **privacy-first period tracking application** designed to empower 
 ### 🏠 Home Screen
 Welcoming dashboard with quick access to all your tracking features and today's information.
 
-![Home Screen](./src/assets/home.jpeg)
+![Home Screen](./src/assets/home.png)
 
 ### 📅 Calendar View
 Beautiful calendar interface to visualize your cycle patterns and important dates at a glance.
 
-![Calendar View](./src/assets/calender.jpeg)
+![Calendar View](./src/assets/calender.png)
 
 ### 📊 Insights & Analytics
 Deep dive into your wellness data with comprehensive analytics and cycle predictions.
 
-![Insights](./src/assets/insights.jpeg)
+![Insights](./src/assets/insights.png)
 
 ### 📝 Activity Log
 Complete history of all your entries with detailed mood and symptom logs.
 
-![Activity Log](./src/assets/log.jpeg)
+![Activity Log](./src/assets/log.png)
 
 ### ⚙️ Personalized Settings
 Customize your experience with flexible preferences and notification settings.
 
-![Settings](./src/assets/settings.jpeg)
+![Settings](./src/assets/settings.png)
 
 ---
 
